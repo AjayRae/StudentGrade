@@ -27,8 +27,8 @@ body::before {
 }
 
 .wrapper {
-  background-color: rgb(169, 243, 185);
-  color: red; 
+  background-color: rgb(151, 151, 145);
+  color: black; 
   width: 400px;
   border-radius: 8px;
   padding: 30px;
@@ -51,7 +51,7 @@ h2 {
 }
 
 .input-field {
-    color: red; 
+    color: rgb(0, 195, 255); 
   position: relative;
   border-bottom: 2px solid #cccccc;
   margin: 15px 0;
@@ -63,7 +63,7 @@ h2 {
   left: 0;
   transform: translateY(-50%);
   color: #fff;
-  font-size: 16px;
+  font-size: 17px;
   pointer-events: none;
   transition: 0.15s ease;
 }
@@ -74,13 +74,13 @@ h2 {
   background: transparent;
   border: none;
   outline: none;
-  font-size: 16px;
-  color: lightcoral;
+  font-size: 20px;
+  color: #000000;
 }
 
 .input-field input:focus~label,
 .input-field input:valid~label {
-  font-size: 0.8rem;
+  font-size: 1rem;
   top: 10px;
   transform: translateY(-120%);
 }
@@ -131,9 +131,9 @@ button {
 }
 
 button:hover {
-  color: #fff;
+  color: #e40f0f;
   border-color: #fff;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(236, 233, 8, 0.15);
 }
 
 .register {
